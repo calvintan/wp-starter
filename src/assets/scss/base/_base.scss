@@ -1,0 +1,47 @@
+body {
+  font-family: $primary-font;
+  position: relative;
+  // font-size: 0.9375rem;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  /* 28px */
+  font-size: 1.75rem;
+}
+h2 {
+  /* 24px */
+  font-size: 1.5rem;
+}
+h3 {
+  /* 18px */
+  font-size: 1.125rem;
+}
+h4 {
+  /* 16px */
+  font-size: 1rem;
+}
+h5 {
+  /* 14px */
+  font-size: 0.875rem;
+}
+h6 {
+  /* 12px */
+  font-size: 0.75rem;
+}

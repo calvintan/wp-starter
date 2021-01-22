@@ -1,0 +1,25 @@
+# ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# folders that are automatically generated
+dist
+packaged
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
