@@ -13,6 +13,20 @@ Starts the gulp process for SCSS and ES6 compilation, and reloads the browser up
 `npm run bundle`
 Bundles the production-ready theme into a zipfile.
 
+## Setup
+```javascript
+export const serve = (done) => {
+  server.init({
+    proxy: "http://localhost/(your local WP dir)/",
+  });
+  done();
+};
+```
+Update `gulpfile.babel.js` with the URL of the WordPress installation on your machine.
+
+Update the "name" in `package.json` to your desired WordPress theme name. 
+This name will take effect when gulp exports the theme as a zipfile.
+
 ## Suggested Plugins/Addons
 
 - Advanced Custom Fields
