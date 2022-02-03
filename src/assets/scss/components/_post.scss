@@ -82,20 +82,20 @@
   &__thumbnail,
   &__gallery,
   &__video {
-    background-color: black;
+    background-color: $black;
     text-align: center;
   }
   &__excerpt {
-    color: $brown-dark;
+    color: $black;
   }
   &__meta {
-    color: $brown-dark;
+    color: $black;
   }
   &__title {
     font-weight: 600;
     font-size: 1.5rem;
     a {
-      color: $brown-dark;
+      color: $black;
       border-bottom: none;
     }
   }
@@ -103,7 +103,7 @@
     font-weight: 600;
     font-size: 2rem;
     a {
-      color: $brown-dark;
+      color: $black;
       border-bottom: none;
     }
   }
