@@ -1,6 +1,7 @@
 import gulp from "gulp";
 import yargs from "yargs";
-import sass from "gulp-sass";
+import gulpSass from "gulp-sass";
+import dartSass from "sass";
 import cleanCSS from "gulp-clean-css";
 import autoprefixer from "gulp-autoprefixer";
 import gulpif from "gulp-if";
@@ -14,6 +15,8 @@ import zip from "gulp-zip";
 import replace from "gulp-replace";
 import info from "./package.json";
 import wpPot from "gulp-wp-pot";
+
+const sass = gulpSass(dartSass);
 
 const server = browserSync.create();
 const PROD = yargs.argv.prod;
